@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    --cor: #E0A449;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #E6E6E6;
+}
+
+span{
+    color: var(--cor);
+}
+
+/*Começo do cabeçalho*/
+header{
+    text-align: center;
+    background-color: #e8b05d67;
+    min-height: 350px;
+    min-width: 100px;
+}
+
+header > h1{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+nav{ /*barra de navegação*/
+    padding: 30px 5px 10px 5px;
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    min-width: 100px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 115px 5px 115px;
+    display: inline-block;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+nav > img{
+    margin-right: -185px;
+    padding: 0px;
+    margin-bottom: -3px;
+    width: 35px;
+    display: inline-block;
+}
+
+#central{ /*Nome do museu*/
+    text-align: justify;
+    font-weight: 500;
+    margin-left: 70px;
+}
+
+#central:hover{
+    text-decoration: none;
+}
+
+#entrar{
+    padding-right: 5px;
+}
+
+#entrar:hover{
+    color: #E0A449;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#fav:hover{
+    color: #E0A449;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#registro{
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#registro:hover{
+    text-decoration: none;
+    background-color: var(--cor);
+    border: 1px solid var(--cor);
+}
+
+header > input{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.436);
+    min-width: 400px;
+    background-image: url(img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center;
+}
+
+input:not(:placeholder-shown) {
+    border: none;
+    outline: none;
+    background-image: none;
+  }
+
+input:placeholder-shown {
+    border: none;
+    outline: none;
+  }
+
+/*Fim do cabeçalho*/
+
+/*Começo do corpo*/
+main{
+    min-width: 100px;
+    max-width: 1300px;
+    padding: 15px;
+    margin: auto;
+}
+
+/*Mais visitados*/
+section{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+section > h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.489);
+    max-width: 250px;
+    min-width: 350px;
+    height: 380px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px 25px 25px 25px;
+}
+
+article:hover{
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.304);
+    transition: box-shadow 0.3s ease;
+}
+
+.imga{
+    width: 100%;
+    height: 77%;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+}
+
+article > p{
+    font-size: 13px;
+    line-height: 1.7em;
+    padding: 5px 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*Conteúdo extra*/
+aside{
+    padding: 10px;
+}
+
+aside > h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+aside > div{
+    background-color: white;
+    max-width: 250px;
+    min-width: 380px;
+    height: 60px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px 5px 10px 5px;
+}
+
+div > p{
+    font-size: 12px;
+    font-weight: normal;
+    display: inline-block;
+    line-height: 1.7em;
+}
+
+div:hover{
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.304);
+    transition: box-shadow 0.3s ease;
+}
+
+.imgd{ /*Imagens do conteúdo extra*/
+    height: 60px; 
+    width: 60px;
+    float: left;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+/*Fim do corpo*/
+
+/*Começo do rodapé*/
+footer{
+    padding: 15px;
+    margin: auto;
+    font-size: 0.8em;
+    min-width: 100px;
+    max-width: 1300px;
+}
+
+footer > img{
+    padding: 0px;
+    margin-bottom: -3px;
+    width: 35px;
+    display: inline-block;
+}
+
+footer > a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+footer > p{
+    display: inline-block;
+    padding: 10px;
+}
+
+footer > hr{
+    margin: 25px 0px 15px 0px;
+}
+
+#ultimop{
+    position: relative;
+    left: 80%;
+}
+
+#topo{
+    position: relative;
+    left: 83%;
+    color: black;
+}
+
+#topo:hover{
+    color: #E0A449;
+}
+
+#museufooter{
+    text-align: justify;
+    font-weight: 400;
+    color: black;
+    font-size: 1.1em;
+}
+/*Fim do rodapé*/
