@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes e Hover</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 14px;
+        }
+
+        div{
+            text-align: left;
+            font-size: 14px;
+            font-weight: bold;
+            height: 50px;
+            width: 150px;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: rgb(152, 40, 152);
+        }
+
+        .divs {
+            display: inline-block;
+            border: 1px solid rgb(255, 171, 185);
+            background-color: pink;
+            height: 200px;
+            width: 250px;
+            text-align: center;
+        }
+
+        div:hover {
+            background-color: violet;
+        } 
+
+        #hhover{
+            text-align: left;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+
+    <div class="divs">Div 01</div>
+    <div class="divs">Div 02</div>
+    <div class="divs">Div 03</div>
+
+    <h1 id="hhover">Exemplo de hover</h1>
+    <p>O que é Hover? <br> O hover faz com que quando você passar o mouse sobre um elemento aconteça alguma ação.</p>
+    <p>Passe o mouse sobre o texto abaixo:</p>
+    <div>
+        Passe o mouse aqui! 
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>

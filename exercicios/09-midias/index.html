@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Abra esse site vários dispositivos diferentes ou apenas aumente/diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/img-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/img-media.png" type="image/png">
+        <img src="img/img-grande.png" alt="imagem flexível">
+    </picture>
+    <p>Fazendo a ordem inversa</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="img/img-grande.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="img/img-media.png" type="image/png">
+        <img src="img/img-pequena.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/youtube-midia.mp3" controls autoplay></audio>
+    <!-- Formatos de áudio: MP3 / WAV / OGG -->
+    <p>Outra maneira:</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/youtube-midia.mp3" type="audio/mpeg">
+        <source src="midia/youtube-midia.ogg" type="audio/ogg">
+        <source src="midia/youtube-midia.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.
+        <a href="midia/youtube-midia.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+</body>
+</html>

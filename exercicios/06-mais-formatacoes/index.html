@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 8 - aula 04</title>
+</head>
+<body>
+    <h1>Outras formatacões de texto</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('test')</code> é escrito em lingaguem JavaScript, usamos a tag &lt; code &gt; (but ela não identa o código)</p>
+    <p>Código em JavaScript usando a tag &lt; code &gt;: <br>
+    <code>
+        var x = 10;
+        if (x > 10) {
+            console.log("X é maior que 10")
+        } else if (x &lt; 10) {
+            console.log ("X é menor que 10")
+        } else {
+            console.log("x é igual a 10")
+        }
+    </code>
+    </p>
+    <p>Colocando a tag &lt; pre &gt; o código que estiver dentro dela vai ficar igual foi escrito. A tag pre considera tudo como está dentro dela.  
+        <pre><code>
+    var x = 10;
+    if (x > 10) {
+        console.log("X é maior que 10")
+    } else if (x &lt; 10) {
+        console.log ("X é menor que 10")
+    } else {
+        console.log("x é igual a 10")
+    }
+        </code></pre>
+    </p>
+    <h2>Citação Simples</h2>
+    <p>Como disse the suriel: <q>Agradeça por seu coração humano, Feyre. Tenha piedade daqueles que não sentem nada.</q></p>
+    <h2>Citação Completa (em bloco)</h2>
+    <p>Como disse Celaena Sardothien em Trono de vidro:</p>
+    <blockquote cite="https://www.amazon.com.br/Box-Trono-Vidro-Acompanha-Marcadores/dp/850130395X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3RA5ZE1E8XTFM&keywords=tog&qid=1693079502&sprefix=tog%2Caps%2C197&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12">
+        "Meu nome é Celaena Sardothien — sussurrou ela.— Mas não faz diferença se meu nome é Celaena, Lillian, ou Vaca, eu ganharia de você da mesma forma, independentemente de como você me chamasse.”
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSSS</abbr>. Usando a tag abbr consigo mostrar o significados dessas abreviações</p>
+    <h2>Texto Invertido</h2>
+    <p>Usando a tag &lt; bdo &gt; deixamos o texto invertido. <bdo dir="rtl">Com o parâmetro dir="rtl" o texto fica na direção direita para esquerda.</bdo> <bdo dir="ltr">Usando o parâmetro dir="ltr" o texto fica na direção esquerda para direita.</bdo></p>
+</body>
+</html>

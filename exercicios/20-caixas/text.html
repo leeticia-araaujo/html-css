@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag - teste</title>
+    <style>
+        body{
+            background-color: #e6edf1;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            margin: 0px;
+        }
+
+        header{
+            background-color: #36B1BF;
+            margin: 20px 100px;
+            padding: 1px 15px;
+        }
+
+        nav{
+            background-color: #4AD9D9;
+        }
+
+        footer{
+            background-color: #CF83D8;
+            text-align: center;
+            margin: 20px 100px;
+            padding: 1px 15px;
+        }
+
+        main{
+            background-color: #F26398;
+            margin: 20px 100px;
+            padding: 1px 15px;
+        }
+
+        section{
+            background-color: #0378A6;
+            padding: 1px 15px;
+            margin: 5px;
+            width: 70%;
+        }
+
+        article{
+            background-color: #F20574;
+            text-align: center;
+            padding: 2px;
+            margin: 15px 10px;
+        }
+
+        aside{
+            background-color: #04BF9D;
+            margin: 5px;
+            width: 30%;
+        }
+
+        aside > p{
+            padding: 10px;
+            text-align: center;
+        }
+
+        .p{
+            padding: 15px;
+            text-align: center;
+        }
+
+        #aaside{
+            width: 90px;
+            height: 50px;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+
+        div{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>header</p>
+        <nav>
+            <p class="p">nav</p>
+        </nav>
+    </header>
+    <main>
+    <p>main</p>
+        <div>
+            <section>
+                <p>section</p>
+                <article>
+                    <p>article</p>
+                </article>
+                <article>
+                    <p>article</p>
+                    <aside id="aaside">
+                        <p>aside</p>
+                    </aside>
+                </article>
+            </section>
+            <aside>
+                <p>aside</p>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+</html>

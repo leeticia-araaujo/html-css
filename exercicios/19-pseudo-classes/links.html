@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            background-image: linear-gradient(90deg, #EDF2FB, #D7E3FC, #C1D3FE, #ABC4FF);
+        }
+
+        div{
+            background-color: #FFFFFF;
+            border-radius: 15px;
+            box-shadow: 5px 5px 10px #a2bdfc;
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+        }
+
+        h1{
+            text-align: center;
+            font-weight: normal;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+
+        a:visited{
+            color: rgb(114, 114, 114);
+        }
+
+        a:hover{
+            background-color: #EDF2FB;
+            color: black;
+            border-radius: 5em;
+        }
+
+        a:active{
+            background-color: #EDF2FB;
+            color: white;
+            border-radius: 5em;
+        }
+
+        .especial::before{
+            content: '➝ ';
+        }
+
+        .especial::after{
+            content: ' [link]';
+            color: gray;
+            font-size: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1>Personalizando links</h1>
+        <ul>
+            <li><a href="https://www.google.com.br" target="_blank" rel="external" class="especial">Google</a></li>
+            <li><a href="https://br.pinterest.com/" target="_blank" rel="external">Pinterest</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="external">Youtube</a></li>
+        </ul>
+    </div>
+</body>
+</html>

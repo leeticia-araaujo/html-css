@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+@font-face {
+    font-family: Idriod;
+    src: url("fontes/idroid.otf") format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C5EBD6;
+}
+
+header{
+    background-image: linear-gradient(180deg, #38C878, #36C174, #30AB67, #2C9D5E, #247D4B, #1A5C38);
+    color: white;
+    padding: 1px;
+}
+
+header > h1{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+    letter-spacing: -2px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.377);
+    text-align: center;
+}
+
+header > p{
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.377);
+    text-align: center;
+}
+
+nav{
+    padding: 2px;
+    margin: 0px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+}
+
+nav > a:hover{
+    text-shadow: 2px 2px 3px black;
+}
+
+footer{
+    background-color: #1A5C38;
+    padding: 1px;
+    margin-top: 15px;
+}
+
+#footerp{
+    color: white;
+    text-align: center;
+    padding: 3px;
+    margin: 1px;
+    font-size: 0.6em;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 1px 0px 1px 0px;
+    width: 800px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.404);
+}
+
+article{
+    margin: 8px 15px;
+}
+
+article > h1{
+    font-family: Idriod, serif;
+    color: #1A5C38;
+}
+
+.h2{
+    font-family: Idriod, serif;
+    color: #1A5C38;
+    font-size: 1.1em;
+    background-image: linear-gradient(90deg, #C5EBD6, #ffffff);
+    padding: 1px 1px 1px 10px;
+}
+
+article > p{
+    text-indent: 1em;
+    text-align: justify;
+}
+
+#aprender{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.393);
+    padding-bottom: 1px;
+}
+
+#aprender > p{
+    padding: 3px 8px;
+}
+
+#aprendermais{
+    color: white;
+    font-size: 1em;
+    background-color: #38C878;
+    border-radius: 10px 10px 0px 0px;
+    padding: 8px;
+}
+
+section{
+    display: inline-block;
+    width: 49%;
+}
+
+ul{
+    margin: 0px;
+    list-style: none;
+    padding: 1px 8px;
+}
+
+li::before{
+    content: "✔ ";
+}
+
+li > a{
+    text-decoration: underline;
+    color: black;
+}
+
+li > a:hover{
+    text-decoration: none;
+}
+
+.a{
+    color: #247D4B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a:hover{
+    text-decoration: underline;
+}
+
+#youtube{
+    background-color: #1A5C38;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.img{
+    width: 99%;
+}
+
+#bugdroid{
+    display: block;
+    margin: auto;
+}
