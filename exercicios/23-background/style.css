@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=SUSE:wght@100..800&display=swap');
+
+body{
+    background: #F1EEFD url(img/octocat.png) left bottom no-repeat;
+    background-size: 100px;
+}
+
+main{
+    max-width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+section{
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.316);
+    border-radius: 16px;
+    margin: 20px 10px;
+    padding: 8px;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+article.posicao{
+    width: 180px;
+    height: 220px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    font-family: 'suse', sans-serif;
+    font-size: 1.7em;
+    font-weight: 400;  
+    margin: 0px; 
+}
+
+p{
+    margin: 8px;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p#texto{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+div.box{
+    background-color: #67E9FF;
+    width: 180px;
+    height: 180px;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #0000004d;
+    position: relative;
+}
+
+#div1{
+    background-color: #1fa5ff;
+}
+
+#div2{
+    background-image: linear-gradient(90deg, #1fa5ff, #67E9FF);
+}
+
+#div3{
+    background: #67E9FF url(img/bear.jpg) center center no-repeat;
+    background-size: 100%;
+}
+
+#div3:hover{
+    background-image: none;
+}
+
+div.box1{
+    background-color: #67E9FF;
+    width: 180px;
+    height: 180px;
+    box-shadow: 1px 1px 5px #0000004d;
+    border-radius: 10px;
+}
+
+#div4{
+    background-image: url(img/astronauta.jpg);
+    background-position: left top;
+}
+
+#div5{
+    background-image: url(img/astronauta.jpg);
+    background-position: right top;
+}
+
+#div6{
+    background-image: url(img/astronauta.jpg);
+    background-position: center center;
+}
+
+#div7{
+    background-image: url(img/astronauta.jpg);
+    background-position: left bottom;
+}
+
+#div8{
+    background-image: url(img/astronauta.jpg);
+    background-position: right bottom;
+}
