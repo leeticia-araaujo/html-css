@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+
+    --black: #141414;
+    --gray: #272727;
+    --lightgray: #696565;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--black);
+    padding: 10px;
+    font-family: Inter, sans-serif;
+}
+
+main{
+    width: 370px;
+    background-color: var(--gray);
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section{
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    border-radius: 100px;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+#loc{
+    color: #c5f82a;
+    padding-top: 6px;
+    font-size: 14px;
+}
+
+#texto{
+    color: #757575;
+    margin-top: 2.5em;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    background-color: var(--lightgray);
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: #c5f82a;
+    color: var(--black);
+}
