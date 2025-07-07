@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #FAE8F0;
+        }
+
+        div{
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.358);          
+            padding: 15px;
+            background-color: white;
+            margin: auto;
+            width: 410px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: 400;
+        }
+
+        table{
+            border-collapse: collapse;
+            margin: auto;
+            font-family: 'Lato', sans-serif;
+            position: relative;
+        }
+        
+        #tabela1{
+            width: 110px;
+            height: 100px;
+        }
+
+        caption{
+            padding: 10px;
+            font-size: 1.1em;
+            border-bottom: none;
+            border-radius: 5px 5px 0px 0px;
+            background-color: #D186FA;
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: #F3E8F9;
+        }
+
+        th{
+            padding: 8px;
+            font-weight: 400;
+            text-align: left;
+            font-size: 14px;
+            border: 1px solid #D186FA;
+        }
+
+        td{
+            padding: 8px;
+            font-size: 13px;
+            border: 1px solid #D186FA;
+        }
+
+        .tdd{
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: #D186FA;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h1>Tabela Simples</h1>
+        <table id="tabela1">
+            <tr>
+                <td class="tdd">1</td>
+                <td class="tdd">2</td>
+                <td class="tdd">3</td>
+            </tr>
+            <tr>
+                <td class="tdd">4</td>
+                <td class="tdd">5</td>
+                <td class="tdd">6</td>
+            </tr>
+            <tr>
+                <td class="tdd">7</td>
+                <td class="tdd">8</td>
+                <td class="tdd">9</td>
+            </tr>
+        </table>
+    </div>
+    <div id="div2">
+        <h1>Tabela Completa</h1>
+        <table> <!-- cria a tabela -->
+            <caption>Melhor Fragrância Brasileira Feminina 2024</caption> <!-- título da tabela -->
+            <thead> <!-- espaço do cabeçalho -->
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Marca</th> <!-- coluna com um texto não importante -->
+                </tr>
+            </thead>
+            <tbody> <!-- espaço do corpo -->
+                <tr>
+                    <td class="tdd">1°</td>
+                    <td>Essencial Sentir</td>
+                    <td>Natura</td>
+                </tr>
+                <tr>
+                    <td class="tdd">2°</td>
+                    <td>Esplendor</td>
+                    <td>Granado</td>
+                </tr>
+                <tr>
+                    <td class="tdd">3°</td>
+                    <td>Ilía Completa</td>
+                    <td>Natura</td>
+                </tr>
+                <tr>
+                    <td class="tdd">4°</td>
+                    <td>Fervo Intenso</td>
+                    <td>Granado</td>
+                </tr>
+                <tr>
+                    <td class="tdd">5°</td>
+                    <td>L'eau de Lily Soleil</td>
+                    <td>O Boticário</td>
+                </tr>
+                <tr>
+                    <td class="tdd">6°</td>
+                    <td>Her Code</td>
+                    <td>O Boticário</td>
+                </tr>
+                <tr>
+                    <td class="tdd">7°</td>
+                    <td>Una Brilho</td>
+                    <td>Natura</td>
+                </tr>
+                <tr>
+                    <td class="tdd">8°</td>
+                    <td>Lily Gardénia</td>
+                    <td>O Boticário</td>
+                </tr>
+                <tr>
+                    <td class="tdd">9°</td>
+                    <td>Flora Magnífica</td>
+                    <td>Granado</td>
+                </tr>
+                <tr>
+                    <td class="tdd">10°</td>
+                    <td>Baunilha e Açafrão</td>
+                    <td>Granado</td>
+                </tr>
+                <tr>
+                    <td class="tdd">11°</td>
+                    <td>Essencial Ato</td>
+                    <td>Natura</td>
+                </tr>
+                <tr>
+                    <td class="tdd">12°</td>
+                    <td>Gardênia</td>
+                    <td>Granado</td>
+                </tr>
+                <tr>
+                    <td class="tdd">13°</td>
+                    <td>Íris</td>
+                    <td>Granado</td>
+                </tr>
+                <tr>
+                    <td class="tdd">14°</td>
+                    <td>Her Code Touch</td>
+                    <td>O Boticário</td>
+                </tr>
+                <tr>
+                    <td class="tdd">15°</td>
+                    <td>Glamour Secrets Black Intense</td>
+                    <td>O Boticário</td>
+                </tr>
+                <tr>
+                    <td class="tdd">16°</td>
+                    <td>Tuberosa</td>
+                    <td>Granado</td>
+                </tr>
+                <tr>
+                    <td class="tdd">17°</td>
+                    <td>Maracujá Natureza dos Sonhos</td>
+                    <td>Natura</td>
+                </tr>
+                <tr>
+                    <td class="tdd">18°</td>
+                    <td>Magnific Audaz</td>
+                    <td>Eudora</td>
+                </tr>
+                <tr>
+                    <td class="tdd">19°</td>
+                    <td>Coffee Addictive Woman</td>
+                    <td>O Boticário</td>
+                </tr>
+                <tr>
+                    <td class="tdd">20°</td>
+                    <td>Eudora Rosé</td>
+                    <td>Eudora</td>
+                </tr>
+                <tr>
+                    <td class="tdd">21°</td>
+                    <td>Heaven</td>
+                    <td>We Pink</td>
+                </tr>
+                <tr>
+                    <td class="tdd">22°</td>
+                    <td>Sublime Lume</td>
+                    <td>Avatim</td>
+                </tr>
+                <tr>
+                    <td class="tdd">23°</td>
+                    <td>Kaiak Sonar</td>
+                    <td>Natura</td>
+                </tr>
+                <tr>
+                    <td class="tdd">24°</td>
+                    <td>Glamour Midnight</td>
+                    <td>O Boticário</td>
+                </tr>
+                <tr>
+                    <td class="tdd">25°</td>
+                    <td>Egeo Melancia</td>
+                    <td>O Boticário</td>
+                </tr>
+                <tr>
+                    <td class="tdd">26°</td>
+                    <td>Luna Ousadia</td>
+                    <td>Natura</td>
+                </tr>
+                <tr>
+                    <td class="tdd">27°</td>
+                    <td>Lilac</td>
+                    <td>O Boticário</td>
+                </tr>
+                <tr>
+                    <td class="tdd">28°</td>
+                    <td>Magnific Rouge Camélia</td>
+                    <td>Eudora</td>
+                </tr>
+                <tr>
+                    <td class="tdd">29°</td>
+                    <td>VF Bloom</td>
+                    <td>We Pink</td>
+                </tr>
+                <tr>
+                    <td class="tdd">30°</td>
+                    <td>Flor de Cerejeira</td>
+                    <td>Mahogany</td>
+                </tr>
+            </tbody>
+            <tfoot> <!-- rodapé -->
+                <tr>
+                    <th>Fonte: <a href="https://www.fragrantica.com.br/awards2024/" target="_blank" rel="nofollow">Fragrantica</a> </th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>

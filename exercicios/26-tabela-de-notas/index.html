@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="section1">
+            <h1>Inserir notas</h1>
+            <div>
+                <p>Disciplina:</p>
+                <p>Nota 1:</p>
+                <p>Nota 2:</p>
+            </div> 
+            <div>
+                <select name="disciplina" id="disciplina" required>
+                    <option value="sel" selected hidden>Selecione</option>
+                    <optgroup label="Exatas">
+                        <option value="math">Matemática</option>
+                        <option value="fis">Física</option>
+                        <option value="quí">Química</option>
+                        <option value="bio">Biologia</option>
+                    </optgroup>
+                    <optgroup label="Humanas">
+                        <option value="soc">Sociologia</option>
+                        <option value="hist">História</option>
+                    </optgroup>
+                </select>
+                <input type="number" name="nota1" id="nota1">
+                <input type="number" name="nota2" id="nota2">
+            </div>
+            <button id="btn">Enviar</button>
+            <p id="alerta"></p>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2" id="area" scope="col">Área</th> 
+                        <th rowspan="2" scope="col">Disciplina</th> 
+                        <th colspan="2" scope="colgroup">Notas</th> 
+                        <th rowspan="2" id="media" scope="col">Média</th> 
+                    </tr>
+                    <tr>
+                        <th scope="col">Nota 1</th>
+                        <th scope="col">Nota 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="4" scope="rowgroup">Exatas</th>
+                        <td class="left">Matemática</td>
+                        <td id="math-n1">0.0</td>
+                        <td id="math-n2">0.0</td>
+                        <td id="math-m">0.0</td>
+                    </tr>
+                    <tr>
+                        <td class="left">Física</td>
+                        <td id="fis-n1">0.0</td>
+                        <td id="fis-n2">0.0</td>
+                        <td id="fis-m">0.0</td>
+                    </tr>
+                    <tr>
+                        <td class="left">Química</td>
+                        <td id="qui-n1">0.0</td>
+                        <td id="qui-n2">0.0</td>
+                        <td id="qui-m">0.0</td>
+                    </tr>
+                    <tr>
+                        <td class="left">Biologia</td>
+                        <td id="bio-n1">0.0</td>
+                        <td id="bio-n2">0.0</td>
+                        <td id="bio-m">0.0</td>
+                    </tr>
+                    <tr class="cor">
+                        <th colspan="4" class="left" scope="row">Média de exatas</th> 
+                        <td id="mediae">0.0</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2" scope="rowgroup">Humanas</th>
+                        <td class="left">Sociologia</td>
+                        <td id="soc-n1">0.0</td>
+                        <td id="soc-n2">0.0</td>
+                        <td id="soc-m">0.0</td>
+                    </tr>
+                    <tr>
+                        <td class="left">História</td>
+                        <td id="his-n1">0.0</td>
+                        <td id="his-n2">0.0</td>
+                        <td id="his-m">0.0</td>
+                    </tr>
+                    <tr class="cor">
+                        <th colspan="4" class="left" id="mhumanas" scope="row">Média de humanas</th>
+                        <td id="mediah">0.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

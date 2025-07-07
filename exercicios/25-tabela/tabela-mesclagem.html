@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masclagem de células em tabelas</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+         body{
+            font-family: "Roboto", sans-serif;
+         }
+
+         table{
+            border-collapse: collapse;
+            width: 250px;
+         }
+
+         td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+         }
+    </style>
+</head>
+<body>
+    <h1>Masclagem de células</h1>
+    <table>
+        <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+
+        </tr>
+        <tr>
+            <td rowspan="3">4</td>
+            <td>5</td>
+            <td rowspan="2">6</td>
+        </tr>
+        <tr>
+
+            <td>8</td>
+            
+        </tr>
+        <tr>
+            
+            <td colspan="2">11</td>
+
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando mesclagem em tabelas</title>
+    <style>
+        body{
+            height: 96vh;
+            background: linear-gradient(to bottom right, #e7e6ff, #dbe9f4, #e0f7ff);
+        }
+        h1{
+            margin-left: 10px;
+        }
+        div{
+            margin: 0px 10px;
+            display: inline-block;
+        }
+        table{
+            display: inline-block;
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+            background-color: rgba(255, 255, 255, 0.71);
+            width: 20px;
+            height: 20px;
+        }
+        td:hover{
+            background-color: #dbe9f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclando células</h1>
+    <div>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4">D</td>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td>H</td>
+                <td>I</td>
+                <td>J</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4">C</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
