@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando colunas</title>
+    <style>
+        h1{
+            text-align: center;
+            font-weight: 100;
+        }
+        table{
+            margin: auto;
+            border-collapse: collapse;
+            width: 450px;
+            font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            border: 1px solid lightpink;
+        }
+        caption{
+            padding: 5px;
+            font-size: 1.4em;
+        }
+        td, th{
+            
+            padding: 10px;
+        }
+        td:nth-child(even){
+            text-align: center;
+        }
+        col.rosa{
+            background-color: #fff3f4;
+        }
+        col.roxo{
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="rosa">
+            <col class="roxo">
+            <col class="rosa">
+            <col class="roxo">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Curso</th>
+            <th scope="col">Período</th>
+        </tr>
+        <tr>
+            <td>Hannah Wells</td>
+            <td>20</td>
+            <td>Música</td>
+            <td>4°</td>
+        </tr>
+        <tr>
+            <td>Grace Ivers</td>
+            <td>19</td>
+            <td>Psicologia</td>
+            <td>2°</td>
+        </tr>
+        <tr>
+            <td>Allie Hayes</td>
+            <td>20</td>
+            <td>Teatro</td>
+            <td>4°</td>
+        </tr>
+        <tr>
+            <td>Sabrina James</td>
+            <td>22</td>
+            <td>direito</td>
+            <td>6°</td>
+        </tr>
+    </table>
+</body>
+</html>

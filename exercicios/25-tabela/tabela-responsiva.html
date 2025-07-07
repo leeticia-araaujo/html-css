@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva</title>
+    <style>
+        body{
+            font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            border: 1px solid palevioletred;
+        }
+        caption{
+            padding: 8px;
+            font-weight: 600;
+            font-size: 1.2em;
+        }
+        th{
+            padding: 10px;
+            font-weight: 400;
+            border: 1px solid palevioletred;
+        }
+        td{
+            padding: 8px;
+            text-align: center;
+        }
+        td:nth-child(1){
+            text-align: left;
+            width: 110px;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgb(255, 222, 227);
+        }
+        div#container{
+            overflow-x: auto;
+        }
+        p{
+            width: 30vw;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem Ipsum</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et eos, sit optio aliquam est corporis ab ut vero, nihil quae impedit eligendi placeat sint nam nostrum facilis libero ea maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div id="container">
+        <table>
+           <caption>Vendas do anos de 2024</caption>
+           <thead>
+                <tr>
+                    <th rowspan="2" scope="rowgroup">Produto</th>
+                    <th colspan="12" scope="colgroup">Mês</th>
+                </tr>
+                <tr>
+                    <th scope="row">Jan</th>
+                    <th scope="row">Fev</th>
+                    <th scope="row">Mar</th>
+                    <th scope="row">Abr</th>
+                    <th scope="row">Mai</th>
+                    <th scope="row">Jun</th>
+                    <th scope="row">Jul</th>
+                    <th scope="row">Ago</th>
+                    <th scope="row">Set</th>
+                    <th scope="row">Out</th>
+                    <th scope="row">Nov</th>
+                    <th scope="row">Dec</th>
+                </tr>
+           </thead>
+           <tbody>
+                <tr>
+                    <td>Echo dot</td>
+                    <td>63</td>
+                    <td>42</td>
+                    <td>53</td>
+                    <td>60</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>75</td>
+                    <td>64</td>
+                    <td>77</td>
+                    <td>84</td>
+                    <td>98</td>
+                    <td>100</td>
+                </tr>
+                 <tr>
+                    <td>Notebook</td>
+                    <td>85</td>
+                    <td>78</td>
+                    <td>70</td>
+                    <td>60</td>
+                    <td>56</td>
+                    <td>60</td>
+                    <td>60</td>
+                    <td>67</td>
+                    <td>75</td>
+                    <td>79</td>
+                    <td>90</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Fone de ouvido</td>
+                    <td>80</td>
+                    <td>68</td>
+                    <td>50</td>
+                    <td>47</td>
+                    <td>52</td>
+                    <td>68</td>
+                    <td>62</td>
+                    <td>53</td>
+                    <td>75</td>
+                    <td>72</td>
+                    <td>80</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>Jogos de tabuleiro</td>
+                    <td>47</td>
+                    <td>52</td>
+                    <td>50</td>
+                    <td>47</td>
+                    <td>47</td>
+                    <td>50</td>
+                    <td>53</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>59</td>
+                    <td>57</td>
+                    <td>62</td>
+                </tr>
+                <tr>
+                    <td>Tênis esportivo</td>
+                    <td>70</td>
+                    <td>68</td>
+                    <td>60</td>
+                    <td>57</td>
+                    <td>50</td>
+                    <td>48</td>
+                    <td>48</td>
+                    <td>53</td>
+                    <td>50</td>
+                    <td>49</td>
+                    <td>65</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>Protetor solar</td>
+                    <td>75</td>
+                    <td>73</td>
+                    <td>68</td>
+                    <td>60</td>
+                    <td>49</td>
+                    <td>44</td>
+                    <td>40</td>
+                    <td>42</td>
+                    <td>44</td>
+                    <td>50</td>
+                    <td>66</td>
+                    <td>75</td>
+                </tr>
+           </tbody>
+        </table>
+    </div>
+</body>
+</html>
