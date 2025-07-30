@@ -6,9 +6,9 @@
 ## Título de nível 2
 ### Título de nível 3
 
-**negrito** __negrito__ -> ** ou __ deixa em negrito
-*itálico* _itálico_ -> * ou _ deixa em itálico
-`comando` -> deixa em destaque indicando que é um comando/código
+**negrito** __negrito__ -> ** ou __ deixa em negrito <br>
+*itálico* _itálico_ -> * ou _ deixa em itálico <br>
+`comando` -> deixa em destaque indicando que é um comando/código <br>
 ``` 
 bloco de código
 
@@ -34,10 +34,10 @@ bloco de código
 
 ## Lista de tarefa:
 
--[] Tarefa 1
--[] Tarefa 2
--[] Tarefa 3
--[] Tarefa 4
+-[ ] Tarefa 1
+-[ ] Tarefa 2
+-[ ] Tarefa 3
+-[ ] Tarefa 4
 -[x] Tarefa concluída 
 
 ## Colocando imagens e links 
