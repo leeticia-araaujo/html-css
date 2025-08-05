@@ -1,10 +1,14 @@
-HTML E CSS
-=======
-Exercícios de html e css
+# HTML E CSS
 
-- Projeto Android: [https://leeticia-araaujo.github.io/html-css/desafios/10-mini-projeto/](https://leeticia-araaujo.github.io/html-css/desafios/10-projeto-android/)
-- Projeto Museu: [https://leeticia-araaujo.github.io/html-css/desafios/novo-projeto-museu-2/](https://leeticia-araaujo.github.io/html-css/desafios/projeto-museu/)
-- Projeto Cordel: [https://leeticia-araaujo.github.io/html-css/desafios/11-cordel/](https://leeticia-araaujo.github.io/html-css/desafios/11-cordel/) 
-- Desafio QR Code [https://leeticia-araaujo.github.io/html-css/desafio-qrcode/qr-code/](https://leeticia-araaujo.github.io/html-css/desafio-qr-code/)
-- Desafio Cartão de pré-visualização: [https://leeticia-araaujo.github.io/html-css/desafio-card/](https://leeticia-araaujo.github.io/html-css/desafio-card/)  
-- Projeto Tabela de notas: [https://leeticia-araaujo.github.io/html-css/exercicios/26-tabela-de-notas/](https://leeticia-araaujo.github.io/html-css/exercicios/26-tabela-de-notas/) 
+Este repositório é dedicado ao meu estudo e atividades práticas de HTML e CSS. Nele está a maior parte dos projetos que desenvolvi utilizando as linguagens.
+
+## ✨ Meus exercícios  
+
+Aqui estão alguns dos meus projetos e exercícios utilizando HTML e CSS:
+
+- [Projeto Android](https://leeticia-araaujo.github.io/html-css/desafios/10-projeto-android/)
+- [Projeto Cordel](https://leeticia-araaujo.github.io/html-css/desafios/11-cordel/)
+- [Projeto Tabela de notas](https://leeticia-araaujo.github.io/html-css/exercicios/26-tabela-de-notas/) 
+- [Projeto Museu](https://leeticia-araaujo.github.io/desafios/projeto-museu/) 
+- [Desafio QR Code](https://leeticia-araaujo.github.io/desafios/desafio-qr-code/) 
+- [Desafio Social Links](https://leeticia-araaujo.github.io/desafios/desafio-social-links/)
