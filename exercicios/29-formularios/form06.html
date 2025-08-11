@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo sobre formulário</title>
+</head>
+<body>
+    <h1>Criando formulários</h1>
+    <p>Criando formulários com select, datalist e text area</p>
+    <form method="post" autocomplete="on">
+        <p>
+            <label for="iestado">Estado</label>
+            <select name="estado" id="iestado">
+                <optgroup label="Região Sudeste">
+                    <option value="ES">ES</option>
+                    <option value="MG">MG</option>
+                    <option value="RJ">RJ</option>
+                    <option value="SP" selected>SP</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="PR">PR</option>
+                    <option value="RS">RS</option>
+                    <option value="SC">SC</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lsprof">
+            <datalist id="lsprof">
+                <option>Dentista</option>
+                <option>Médico</option>
+                <option>Músico</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label> 
+            <textarea name="msg" id="imsg" cols="15" rows="5"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

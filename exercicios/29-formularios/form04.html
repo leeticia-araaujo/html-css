@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo sobre formulário</title>
+</head>
+<body>
+    <h1>Criando formulários</h1>
+    <p>Criando formulários com radio e checkbox</p>
+    <form method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="ifem" value="F"> <label for="ifem">Feminino</label> <br>
+            <input type="radio" name="sexo" id="imasc" value="M"> <label for="imasc">Masculino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="bas" id="ibas"> <label for="ibas">Basquete</label> <br>
+            <input type="checkbox" name="fut" id="ifut"> <label for="ifut">Futebol</label> <br>
+            <input type="checkbox" name="nat" id="inat"> <label for="inat">Natação</label> <br>
+            <input type="checkbox" name="vol" id="ivol"> <label for="ivol">Vôlei</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

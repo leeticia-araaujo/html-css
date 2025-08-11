@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo sobre formulários</title>
+</head>
+<body>
+    <h1>Criando formulários</h1>
+    <p>Criando formulários com texto e senha</p>
+    <form autocomplete="off" method="post"> <!--desliga o autocomplete, não exibe os dados na url-->
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="Nome" id="inome" required placeholder="Digite seu nome">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="Sobrenome" id="isobrenome" placeholder="Digite seu sobrenome">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="Senha" id="isenha" required minlength="5" maxlength="15">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
