@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Estilo para impressão */
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+nav{
+    display: none; /* Esconde a navegação na impressão */
+}
+
+article{
+    width: 100%;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+article::after{
+    content: 'Esse artigo foi impresso em pag-noticias/noticias/index.html';
+}

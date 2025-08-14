@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Media Query</title>
+    <link rel="stylesheet" href="estilo/tela.css" media="screen">
+    <link rel="stylesheet" href="estilo/impressora.css" media="print">
+</head>
+<body>
+    <header>
+        <h1>Notícias</h1>
+        <nav>
+            <ul>
+                <li>Esportes</li>
+                <li>Moda</li>
+                <li>Política</li>
+                <li>Tecnologia</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Aprendendo a utilizar Media Queries</h2>
+            <p>
+                Media Queries são uma técnica do CSS que permite aplicar estilos diferentes dependendo das características do dispositivo, como largura da tela, orientação e resolução. Elas são essenciais para criar layouts responsivos que se adaptam a diferentes tamanhos de tela, garantindo uma melhor experiência de usuário em dispositivos móveis e desktops.
+            </p>
+            <p>
+                Para utilizar Media Queries, você pode definir regras CSS dentro de uma consulta que verifica as condições do dispositivo. Por exemplo, para aplicar estilos apenas em telas com largura máxima de 600px, você pode usar a seguinte sintaxe:
+            </p>
+            <pre>
+                @media (max-width: 600px) {
+                    body {
+                        background-color: lightblue;
+                    }
+                }
+            </pre>
+            <p>                Neste exemplo, quando a largura da tela for de 600 pixels ou menos, o fundo do corpo da página será alterado para azul claro. Você pode combinar várias condições e aplicar diferentes estilos para criar um design flexível e adaptável.
+            </p>
+        </article>
+    </main>
+</body>
+</html>
