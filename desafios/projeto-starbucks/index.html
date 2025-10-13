@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo da starbucks">
+    </header>
+    <div class="circle"></div>
+    <div class="content">
+        <div class="content-text">
+            <h1>It´s not just Coffee It´s <span>Starbucks</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facilis praesentium inventore, adipisci temporibus voluptates nemo sit laborum quam saepe voluptatibus, soluta repudiandae possimus nobis dignissimos laboriosam labore quod quo.</p>
+            <button>Clique no sininho</button>
+        </div>
+        <div class="content-img">
+            <img src="img/img1.png" alt="Imagem copo de café" class="large-cup">
+        </div>
+    </div>
+    <div class="menu">
+        <img src="img/thumb1.png" alt="Imagem copo de café" class="menu-img" onclick="changeColor('#017143'); changeImg('img/img1.png')">
+
+        <img src="img/thumb2.png" alt="Imagem copo de café" class="menu-img" onclick="changeColor('#eb7495'); changeImg('img/img2.png')""> 
+        <img src="img/thumb3.png" alt="Imagem copo de café" class="menu-img" onclick="changeColor('#d752b1'); changeImg('img/img3.png')"">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

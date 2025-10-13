@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px){ /*para telas até 768px*/
+
+    body{
+        padding: 10px 30px 5px 30px;
+    }
+
+    .circle{
+        clip-path: circle(210px at right 350px);
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    .content-img{
+        width: 300px;
+    }
+
+    img.large-cup {
+        width: 180px;
+    }
+
+    .menu-img{
+        width: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    .circle{
+        clip-path: circle(350px at right 450px);
+    }
+
+}
