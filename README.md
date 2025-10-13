@@ -12,3 +12,4 @@ Aqui estão alguns dos meus projetos e exercícios utilizando HTML e CSS:
 - [Projeto Museu](https://leeticia-araaujo.github.io/desafios/projeto-museu/) 
 - [Desafio QR Code](https://leeticia-araaujo.github.io/desafios/desafio-qr-code/) 
 - [Desafio Social Links](https://leeticia-araaujo.github.io/desafios/desafio-social-links/)
+- [Projeto Starbucks](https://leeticia-araaujo.github.io/html-css/desafios/projeto-starbucks/)
