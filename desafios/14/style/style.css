@@ -31,12 +31,15 @@ body{
 
 main.login{
     background-color: #fff;
-    width: 250px;
+    width: 300px;
     height: 500px;
     border-radius: 8px;
     overflow: hidden;
 
     box-shadow: 0 0 10px rgba(0,0,0,0.28);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#img{
@@ -49,4 +52,81 @@ section#img{
 section#form{
     padding: 15px;
     display: block;
+    
+}
+
+section#form h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section#form p{
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+div.field{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+form label{
+    display: none;
+}
+
+div.field i{
+    width: 20px;
+}
+
+div.field input{
+    font-size: 1rem;
+    border: 1px solid var(--light-orange);
+    border-radius: 5px;
+    padding: 5px;
+    width: calc(100% - 25px);
+} 
+
+div.field input:focus{
+    outline: none;
+    border-color: var(--blue);
+}
+
+form > input[type="submit"]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--orange);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+form > input[type="submit"]:hover{
+    background-color: var(--light-orange);
+}
+
+section#form a{
+    display: block;
+    text-decoration: none;
+    color: var(--text);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+section#form a:hover{
+    color: var(--light-orange);
 }

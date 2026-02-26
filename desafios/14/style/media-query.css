@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/*tamanho para tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    body{
+        background-image: linear-gradient(135deg, #91CCD9, #A883B6);
+    }
+
+    main.login{
+        width: 80vw;
+    }
+
+    section#img{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }  
+    
+    section#form{
+        float: right;
+        width: 70%;
+    }
+
+    section#form h1{
+        font-size: 1.6rem;
+    }
+
+    section#form p{
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    form > input[type="submit"]{
+        margin-top: 20px;
+    }
+}
+
+/*tamanho para desktop*/
+@media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(135deg, #91CCD9, #A883B6);
+    }
+
+    main.login{
+        width: 90%;
+        
+    }
+
+    section#img{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }  
+    
+    section#form{
+        float: left;
+        width: 50%;
+    }
+
+    section#form h1{
+        font-size: 1.8rem;
+    }
+
+    section#form p{
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+
+    form > input[type="submit"]{
+        margin-top: 20px;
+    }
+}
